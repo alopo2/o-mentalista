@@ -1,4 +1,4 @@
-let numeroSecreto = Math.random(10);
+let numeroSecreto = parseInt(Math.random() * 1001);
 
 let chute = prompt("Digite um numero: ")
 
